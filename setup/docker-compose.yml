@@ -17,18 +17,6 @@ services:
       - "3306:3306"
     volumes:
       - db-data:/var/lib/mysql
-      # - ./setup:/var/setup
-
-  # dotnet:
-  #   image: mcr.microsoft.com/dotnet/sdk:8.0
-  #   container_name: dotnet
-  #   restart: unless-stopped
-  #   links:
-  #     - db
-  #   ports:
-  #     - "80:8081"
-  #   volumes:
-  #     - ../:/user/app
 
 volumes:
   db-data:
