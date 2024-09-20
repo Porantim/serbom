@@ -1,4 +1,4 @@
-# Desafio Serbom
+# Desafio ![Grupo Serbom](https://gruposerbom.com.br/wp-content/uploads/elementor/thumbs/Logo-Grupo-Serbom-per6qbsxueuf8h0iiocnzd70s31osvp3jd4u2p5se8.webp)
 
 Olá, este é o repositório do desafio de codificação e arquitetura que recebi da Serbom como parte de seu processo seletivo.
 
@@ -8,6 +8,7 @@ Olá, este é o repositório do desafio de codificação e arquitetura que receb
 
 - [Requisitos recebidos](docs/requirements.md)
 - [Instalação do ambiente de desenvolvimento](docs/install.md)
+- [Grupo Serbom](https://gruposerbom.com.br)
 
 ## Saiba mais sobre mim:
 
