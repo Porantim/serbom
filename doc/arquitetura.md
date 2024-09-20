@@ -6,6 +6,8 @@
 
 **Contexto:** O projeto é um *code challenge*, parte do processo seletivo para Arquiteto de Sistemas e consiste em um cadastro de Contratos e Clientes ([veja os requisitos](requirements.md))
 
+**Documetação:** Apesar de os requisitos solicitarem a documentação em um arquivo PDF, optei pela ousadia de utilizar o próprio GitHub para essa documentação por acreditar nas vantagens dessa escolha. Por favor, [leia minha justificativa](markdown.md)
+
 ## Visão Geral da Arquitetura
 
 ### Componentes:
