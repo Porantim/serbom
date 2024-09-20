@@ -15,7 +15,7 @@ Olá, este é o repositório do desafio de codificação e arquitetura que receb
 - [Visão arquitetural](doc/arquitetura.md)
   - [Frontend](doc/frontend.md)
   - [Backend](doc/backend.md)
-  - [Banco de dados](doc/bd.md)
+  - [Banco de dados](doc/db.md)
   - [Serviço de endereçamento](doc/cep.md)
 - [Ambiente de desenvolvimento](doc/dev.md)
 - [Instalação do ambiente de desenvolvimento](doc/install.md)
