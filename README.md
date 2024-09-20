@@ -26,3 +26,4 @@ Olá, este é o repositório do desafio de codificação e arquitetura que receb
 
 - [PontoOrg](https://github.com/Porantim/PontoOrg) - Um projeto pessoal em que atuo como arquiteto. Uso PHP, React.js (com TypeScript) e MySQL.
 - [eXobrain Solutions](https://exobrain.com.br) - Minha tentativa de empreender. Ainda engatinhando.
+- [PnP Modern Search](https://github.com/Porantim/pnp-modern-search) - Meu fork do PnP Modern Search. Ferramenta para SharePoint do grupo de Patterns and Practices da Microsoft, onde fiz pequenas contribuições.
