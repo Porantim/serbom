@@ -2,6 +2,8 @@
 
 ![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=white)
 
+[**<-- Voltar**](arquitetura.md)
+
 Apesar de os requisitos solicitarem a documentação em um arquivo PDF, optei pela ousadia de utilizar o próprio GitHub para essa documentação por acreditar nas vantagens dessa escolha
 
 O Markdown, combinado com o Git, é uma escolha popular e eficaz para a documentação de projetos por diversos motivos:
@@ -40,3 +42,5 @@ O Markdown, combinado com o Git, é uma escolha popular e eficaz para a document
 ## Em resumo:
 
 A combinação de Markdown e Git oferece uma solução poderosa e flexível para a documentação de projetos. A simplicidade, a versatilidade e a integração com ferramentas de desenvolvimento fazem do Markdown uma escolha ideal para criar documentação clara, concisa e fácil de manter.
+
+[**<-- Voltar**](arquitetura.md)
