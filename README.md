@@ -11,8 +11,12 @@ Olá, este é o repositório do desafio de codificação e arquitetura que receb
 
 ## Documentação
 
+- [Markdown](doc/markdown.md)
 - [Visão arquitetural](doc/arquitetura.md)
   - [Frontend](doc/frontend.md)
+  - [Backend](doc/backend.md)
+  - [Banco de dados](doc/bd.md)
+  - [Serviço de endereçamento](doc/cep.md)
 - [Instalação do ambiente de desenvolvimento](doc/install.md)
 
 ## Saiba mais sobre mim:
