@@ -2,6 +2,8 @@
 
 [ViaCEP](https://viacep.com.br)
 
+[**<-- Voltar**](arquitetura.md)
+
 Um dos requisitos do projeto era a utilização de um serviço web que permitisse obter o endereço a partir de um CEP. Há vários serviços estatais nesse sentido mas, ou são de uso restrito (gov.br) ou exigem um contrato de utilização (Correios). Por conta disso, escolhi um serviço gratuito e desburocratizado, embora particular: o ViaCEP;
 
 O ViaCEP é um serviço web gratuito que permite consultar informações de endereços no Brasil a partir de um Código de Endereçamento Postal (CEP). Ele funciona como uma espécie de "dicionário de endereços", onde você informa um CEP e ele te retorna informações como logradouro, bairro, cidade, estado, etc.
@@ -26,3 +28,5 @@ Ao escolher o ViaCEP para um projeto, optei por uma solução que:
 ## Em resumo:
 
 O ViaCEP é uma excelente opção para quem precisa consultar informações de endereços no Brasil de forma simples, rápida e gratuita. Sua facilidade de uso e a qualidade dos dados fornecidos o tornam uma ferramenta indispensável para diversos tipos de aplicações, como sistemas de e-commerce, aplicativos de entrega e plataformas de geolocalização.
+
+[**<-- Voltar**](arquitetura.md)
