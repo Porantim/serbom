@@ -6,8 +6,8 @@ Olá, este é o repositório do desafio de codificação e arquitetura que receb
 
 ## Conheça mais:
 
-- [Requisitos recebidos](docs/requirements.md)
-- [Instalação do ambiente de desenvolvimento](docs/install.md)
+- [Requisitos recebidos](doc/requirements.md)
+- [Instalação do ambiente de desenvolvimento](doc/install.md)
 - [Grupo Serbom](https://gruposerbom.com.br)
 
 ## Saiba mais sobre mim:
