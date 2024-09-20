@@ -27,4 +27,5 @@
   ```
 5. Aguarde o processo terminar (demora um pouco)
 6. Abra o [Frontend](http://localhost:44403) no seu navegador.
-7. Abra a [documentação OpenAPI dos serviços](http://localhost:5080/swagger/index.html) no seu navegador.
+   - Utilize o email ***serbom@gruposerbom.com.br*** e a senha ***Pass@word1***
+8. Abra a [documentação OpenAPI dos serviços](http://localhost:5080/swagger/index.html) no seu navegador.
