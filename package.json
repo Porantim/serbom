@@ -1,0 +1,19 @@
+{
+  "name": "serbom",
+  "version": "1.0.0",
+  "main": "./environment/init.js",
+  "scripts": {
+    "install": "cd setup && npm install && npm run setup:run",
+    "start": "cd setup && npm start",
+    "stop": "cd setup && npm stop"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Porantim/serbom.git"
+  },
+  "author": "Maurício Moura",
+  "bugs": {
+    "url": "https://github.com/Porantim/serbom/issues"
+  },
+  "homepage": "https://github.com/Porantim/serbom#readme"
+}

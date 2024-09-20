@@ -396,3 +396,10 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+#MySQL
+Environment/data
+
+#DotNet
+Serbom.Api/bin/
+Serbom.Api/obj/

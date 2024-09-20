@@ -1,0 +1,27 @@
+{
+  "name": "Serbom-setup",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Maurício Moura",
+  "scripts": {
+    "start": "run-p start:db start:backend start:frontend",
+    "stop" : "docker stop db",
+    "build" : "run-p build:backend build:frontend",
+
+    "start:db": "docker start db",
+    "start:backend": "cd ../Serbom.Api && dotnet run",
+    "start:frontend": "cd ../Serbom.Frontend && npm start http://localhost:44403",
+
+    "setup:run": "run-s setup:frontend setup:backend setup:db",
+    "setup:frontend" : "cd ../Serbom.Frontend && npm install && npm update && npm audit fix && cd ../",
+    "setup:backend" : "cd ../Serbom.Api && dotnet restore",
+    "setup:db": "docker-compose up -d && node db.js",
+
+    "build:backend" : "cd ../Serbom.Api && dotnet build",
+    "build:frontend" : "cd ../Serbom.Frontend && npm run build"
+  },
+  "devDependencies": {
+    "npm-run-all": "^4.1.5",
+    "mysql2": "^3.11.2"
+  }
+}

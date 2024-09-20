@@ -1,0 +1,34 @@
+name: Serbom-Mauricio
+
+services:
+
+  db:
+    image: mysql:lts
+    container_name: db
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpwd
+      MYSQL_ROOT_HOST: '%'
+      MYSQL_PORT: 3306
+      MYSQL_DATABASE: Serbom
+      MYSQL_USER: serbom
+      MYSQL_PASSWORD: serbompwd
+    ports:
+      - "3306:3306"
+    volumes:
+      - db-data:/var/lib/mysql
+      # - ./setup:/var/setup
+
+  # dotnet:
+  #   image: mcr.microsoft.com/dotnet/sdk:8.0
+  #   container_name: dotnet
+  #   restart: unless-stopped
+  #   links:
+  #     - db
+  #   ports:
+  #     - "80:8081"
+  #   volumes:
+  #     - ../:/user/app
+
+volumes:
+  db-data:

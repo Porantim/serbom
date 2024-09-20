@@ -1,0 +1,33 @@
+#Contract {
+    width: 700px;
+    margin: auto;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3);
+}
+    #Contract input, #Contract button, #Contract select, #Contract textarea, #Contract span {
+        width: 60%;
+        padding: 2px 5px;
+        margin: 5px 0;
+        font-weight: bold;
+    }
+    #Contract input, #Contract button, #Contract select, #Contract textarea {
+        border-radius: 5px;
+        border: 1px solid #808080;
+    }
+    #Contract span {
+        border: 1px solid transparent;
+        vertical-align: top;
+        display: inline-block;
+    }
+    #Contract label {
+        width: 40%;
+        text-align: right;
+        padding: 2px 5px;
+        margin: 5px 0;
+        vertical-align: top;
+    }
+    #Contract .btnBar {
+        margin-top: 30px;
+    }

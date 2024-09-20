@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Serbom.Api", "Serbom.Api\Serbom.Api.csproj", "{45E7C7BE-C9A3-4F3C-A211-4C7E44055001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serbom.Domain", "Serbom.Domain\Serbom.Domain.csproj", "{581CFA7F-855C-445C-AC2A-83C3B331FDC7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "setup", "setup", "{94107DA5-B978-4328-9FB9-3105A197B38E}"
+	ProjectSection(SolutionItems) = preProject
+		setup\create.sql = setup\create.sql
+		setup\db.js = setup\db.js
+		setup\environment.js = setup\environment.js
+		setup\docker-compose.yml = setup\docker-compose.yml
+		setup\package.json = setup\package.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serbom.Frontend", "Serbom.Frontend\Serbom.Frontend.csproj", "{1FA072C9-FB79-4DEB-AA47-D86B29657DC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{45E7C7BE-C9A3-4F3C-A211-4C7E44055001}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45E7C7BE-C9A3-4F3C-A211-4C7E44055001}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45E7C7BE-C9A3-4F3C-A211-4C7E44055001}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45E7C7BE-C9A3-4F3C-A211-4C7E44055001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581CFA7F-855C-445C-AC2A-83C3B331FDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581CFA7F-855C-445C-AC2A-83C3B331FDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581CFA7F-855C-445C-AC2A-83C3B331FDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581CFA7F-855C-445C-AC2A-83C3B331FDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FA072C9-FB79-4DEB-AA47-D86B29657DC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FA072C9-FB79-4DEB-AA47-D86B29657DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FA072C9-FB79-4DEB-AA47-D86B29657DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FA072C9-FB79-4DEB-AA47-D86B29657DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AD17D92E-1578-4459-A01A-428928AF8A2B}
+	EndGlobalSection
+EndGlobal

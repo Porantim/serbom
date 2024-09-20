@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="src\components\Client - Cópia.jsx" />
+    <None Remove="src\components\Client.jsx" />
+    <None Remove="src\WithRoutProps.jsx" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="src\withRoutProps.jsx" />
+  </ItemGroup>
+
+</Project>
