@@ -10,7 +10,7 @@
 
 ### Componentes:
 
-Sendo um sistema bastante simples, a escolha recai sobre uma arquitetura tradicional em que a interface de usuário é baseada em ambiente web, rodando no navegador, acessando um conjunto de serviços web que fornecerão todos os dados e toda a inteligência do negócio. Podemos representaressa arquitetura da seguinte forma:
+Sendo um sistema bastante simples, a escolha recai sobre uma arquitetura tradicional em que a interface de usuário é baseada em ambiente web, rodando no navegador, acessando um conjunto de serviços web que fornecerão todos os dados e toda a inteligência do negócio. Podemos representaressa arquitetura, de maneira conceitual, da seguinte forma:
 
 ```mermaid
 ---
@@ -42,7 +42,6 @@ graph LR
     F2 --> B1
     F2 --> V1
 ```
-::Diagrama conceitual da arquitetura::
 
 #### Frontend
 
