@@ -2,6 +2,8 @@
 
 ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
+[**<-- Voltar**](arquitetura.md)
+
 O MySQL é um dos sistemas gerenciadores de bancos de dados relacionais (SGBDR) mais populares e utilizados no mundo. Sua escolha para um desafio de desenvolvimento, especialmente quando não há restrições específicas, é bastante justificável por diversos motivos:
 
 ## 1. Maturidade e Estabilidade:
@@ -36,3 +38,6 @@ Em resumo, o MySQL é uma excelente escolha para um desafio de desenvolvimento p
 * Oferecer um bom equilíbrio entre performance, facilidade de uso e custo
 * Ser adequado para uma ampla variedade de aplicações
 * Ter uma comunidade ativa e extensa documentação
+
+
+[**<-- Voltar**](arquitetura.md)
