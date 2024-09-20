@@ -18,6 +18,7 @@ config:
   layout: elk
   look: handDrawn
   theme: halloween
+title: Diagrama conceitual de componentes
 ---
 graph LR
     subgraph Frontend
